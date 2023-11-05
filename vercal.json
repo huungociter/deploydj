@@ -1,10 +1,16 @@
+
+Code With Clinton đã ghim
+@CodeWithClinton
+5 tháng trước (đã chỉnh sửa)
+Add the lines of code below into your vercel.json file.
+
 {
   "version": 2,
   "builds": [
     {
-      "src": "goldenowltest/wsgi.py",
+      "src": "Goldenowltest/wsgi.py",
       "use": "@vercel/python",
-      "config": { "maxLambdaSize": "15mb", "runtime": "python3.9.13" }
+      "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
     },
     {
       "src": "build_files.sh",
@@ -21,7 +27,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "goldenowltest/wsgi.py"
+      "dest": "Goldenowltest/wsgi.py"
     }
   ]
 }
