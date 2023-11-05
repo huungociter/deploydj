@@ -27,7 +27,7 @@ Add the lines of code below into your vercel.json file.
     },
     {
       "src": "/(.*)",
-      "dest": "Goldenowltest/wsgi.py"
+      "dest": "/"
     }
   ]
 }
